@@ -11,11 +11,11 @@ The spreadsheets come from the following sources:
 
 New York City Campaign Finance Board: 
 
-"Cuomo data 6.20.csv": Raw data of campaign contributions to Andrew Cuomo
+"Cuomo data 6.20.csv": Raw data of campaign contributions to Andrew Cuomo, collected 6/20/25
 
-"Mamdani data 6.20.csv": Raw data of campaign contributions to Zohran Mamdani
+"Mamdani data 6.20.csv": Raw data of campaign contributions to Zohran Mamdani, collected 6/20/25
 
-"Mamdani data 6.20.csv": Raw data of campaign contributions to Brad Lander
+"Mamdani data 6.20.csv": Raw data of campaign contributions to Brad Lander, collected 6/20/25
 
 You can download all the data [here](https://www.nyccfb.info/FTMSearch/Home/FTMSearch)
 
