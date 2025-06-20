@@ -1,9 +1,7 @@
 # NYC-Mayoral-Campaign-Finance-Analysis
 
-This repository contains data, analytic code, and findings that support portions of the article, “TK HED” drafted TK DATE. Please read that article, which contains important context and details, before proceeding.
-
-Analysis of TK data set — MM/YYYY to MM/YYYY
-This repository contains data, analytic code, and findings that support portions of the article, “TKTKTKTK,” published Month Date, Year. Please read that article, which contains important context and details, before proceeding.
+Analysis of campaign finance contribitions to Cuomo, Mamdani, and Lander Mayoral campaigns, with data collected 6/20/25. 
+This repository contains data, analytic code, and findings that support portions of the article, “Mamdani Outpaces Rivals in Out-of-State Donors to Mayoral Campaign,” published June 20, 2025. 
 
 
 ## Data
@@ -13,11 +11,11 @@ The spreadsheets come from the following sources:
 
 New York City Campaign Finance Board: 
 
-TK name_of_spreadsheet.xlsx: Raw data of campaign contributions to Andrew Cuomo
+"Cuomo data 6.20.csv": Raw data of campaign contributions to Andrew Cuomo
 
-TK name_of_spreadsheet.xlsx: Raw data of campaign contributions to Zohran Mamdani
+"Mamdani data 6.20.csv": Raw data of campaign contributions to Zohran Mamdani
 
-TK name_of_spreadsheet.xlsx: Raw data of campaign contributions to Brad Lander
+"Mamdani data 6.20.csv": Raw data of campaign contributions to Brad Lander
 
 You can download all the data [here](https://www.nyccfb.info/FTMSearch/Home/FTMSearch)
 
@@ -33,19 +31,21 @@ REFNO - the individual reference number for the donation
 ## Methodology
 The notebook "campaign finance analysis.ipynb" performs the following analyses:
 
-Part 1: Filtering out donations from donors that live in New York
+Part 1: Finding the total amount of funds raised/
 
-Part 2: Finding the average amount and total amount of non-New York donations
+Part 2: Filtering out donations from donors that live in New York
 
-Part 3: Creating a new index that only contains the amount and number of non-New York donations by state, including Puerto Rico and Washington DC. 
+Part 3: Finding the average amount and total amount of non-New York donations
 
-Part 4: Renaming the "REFNO" column to "number of donations" for clarity
+Part 4: Creating a new index that only contains the amount and number of non-New York donations by state, including Puerto Rico and Washington DC. 
 
-Part 5: Combining the analysis of Cuomo, Mamdani, and Lander's non-New York donors into one new index, with columns: "State", "Mamdani number of donations," "Lander number of donations" and "Cuomo number of donations"
+Part 5: Renaming the "REFNO" column to "number of donations" for clarity
+
+Part 6: Combining the analysis of Cuomo, Mamdani, and Lander's non-New York donors into one new index, with columns: "State", "Mamdani number of donations," "Lander number of donations" and "Cuomo number of donations"
 
 
 ## Outputs
-The notebooks output this spreadsheet which contains [candidates_merged.6.17.csv]: (output/candidates_merged.6.17.csv.)
+The notebooks output this spreadsheet which contains [candidates_merged.6.20.csv]: (output/candidates_merged.6.20.csv.)
 
 ## Running the analysis yourself
 You can run the analysis yourself. To do so, you'll need the following installed on your computer:
